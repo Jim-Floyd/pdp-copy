@@ -1,1 +1,259 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo img {
+  height: 70px;
+  width: 90px;
+}
+
+nav .courses a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 120px;
+}
+
+nav .courses a img {
+  width: 25px;
+  height: 25px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 200px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+nav .login a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 90px;
+}
+
+nav .login a img {
+  width: 25px;
+  height: 25px;
+  margin-top: -10px;
+}
+
+.style-none {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 0;
+}
+
+.intro h1 {
+  width: 700px;
+  font-size: 80px;
+}
+
+.intro img {
+  width: 450px;
+}
+
+.section2 .edu-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.section2 .edu-type .edu {
+  width: 642px;
+  height: 450px;
+  background-color: #faf5f5;
+  position: relative;
+  overflow: hidden;
+}
+
+.section2 .edu-type .edu .study-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+}
+
+.section2 .edu-type .edu .study-link .edu-btn {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100%;
+}
+
+.section2 .edu-type .edu .study-link .edu-btn img {
+  height: 20px;
+  width: 20px;
+}
+
+.section2 .edu-type .edu .study-body-hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: -100%;
+  margin-top: -50px;
+  z-index: 2;
+  height: 420px;
+}
+
+.section2 .edu-type .edu .study-body-hover .study-more-info {
+  margin-left: 80px;
+  color: white;
+  font-size: 23px;
+}
+
+.section2 .edu-type .edu .study-body-hover img {
+  width: 200px;
+  height: 250px;
+  margin-top: 100px;
+}
+
+.section2 .edu-type .edu .study-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 80px;
+}
+
+.section2 .edu-type .edu .study-body .study-comment {
+  width: 450px;
+}
+
+.section2 .edu-type .edu .study-body img {
+  margin: 80px;
+  width: 50px;
+  height: 50px;
+}
+
+.section2 .edu-type .edu .study-body .study-name {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.section2 .edu-type .edu .edu-type2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.section2 .edu-type .edu .edu-type2 .edu-type2-icon {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.section2 .edu-type .edu .edu-type2 .edu-type2-hidden {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.section2 .edu-type .edu .edu-type2 .onsite-text {
+  width: 500px;
+  font-size: larger;
+  z-index: 2;
+}
+
+.section2 .edu-type .edu .edu-type2 .onsite-text .text2 {
+  display: none;
+}
+
+.section2 .edu-type .edu .edu-type2 .onsite-text .more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2 .edu-type .edu .edu-type2 .onsite-text .more .more-icon {
+  width: 20px;
+  height: 20px;
+}
+/*# sourceMappingURL=style.css.map */

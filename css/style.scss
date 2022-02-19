@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      height: 70px;
+      width: 90px;
+    }
+  }
+  .courses {
+    a {
+      display: flex;
+      justify-content: space-between;
+      width: 120px;
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    list-style: none;
+    li {
+      a {
+        text-decoration: none;
+        color: gray;
+      }
+    }
+  }
+  .login {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 90px;
+      img {
+        width: 25px;
+        height: 25px;
+        margin-top: -10px;
+      }
+    }
+  }
+}
+.style-none {
+  text-decoration: none;
+  color: black;
+}
+section {
+  margin-bottom: 50px;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+  h1 {
+    width: 700px;
+    font-size: 80px;
+  }
+  img {
+    width: 450px;
+  }
+}
+.section2 {
+  .edu-type {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    .edu {
+      width: 642px;
+      height: 450px;
+      background-color: rgb(250, 245, 245);
+      position: relative;
+      overflow: hidden;
+      .study-link {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 80px;
+        .edu-btn {
+          width: 60px;
+          height: 60px;
+          background-color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100%;
+          img {
+            height: 20px;
+            width: 20px;
+          }
+        }
+      }
+      .study-body-hover {
+        display: flex;
+        position: absolute;
+        bottom: -100%;
+        margin-top: -50px;
+        z-index: 2;
+        height: 420px;
+        .study-more-info {
+          margin-left: 80px;
+          color: white;
+          font-size: 23px;
+        }
+        img {
+          width: 200px;
+          height: 250px;
+          margin-top: 100px;
+        }
+      }
+      .study-body {
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+
+        .study-comment {
+          width: 450px;
+        }
+        img {
+          margin: 80px;
+          width: 50px;
+          height: 50px;
+        }
+        .study-name {
+          margin-bottom: 10px;
+          font-size: 40px;
+        }
+      }
+      .edu-type2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 80px;
+        .edu-type2-icon {
+          align-self: flex-start;
+        }
+        .edu-type2-hidden {
+          position: absolute;
+          top: 0;
+          right: 0;
+          z-index: 1;
+          opacity: 0;
+        }
+        .onsite-text {
+          width: 500px;
+          font-size: larger;
+          z-index: 2;
+          .text2 {
+            display: none;
+          }
+          .more {
+            display: flex;
+            align-items: center;
+            .more-icon {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
