@@ -163,10 +163,68 @@ section {
           .more {
             display: flex;
             align-items: center;
-            .more-icon {
-              width: 20px;
-              height: 20px;
+            a {
+              display: contents;
+              .more-icon {
+                width: 20px;
+                height: 20px;
+              }
             }
+          }
+        }
+      }
+    }
+  }
+}
+.animate {
+  .full-side {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    .main-side {
+      display: flex;
+      flex-direction: column;
+      width: 648px;
+      background-color: rgb(250, 245, 245);
+      padding-left: 80px;
+      img {
+        margin-top: 200px;
+        width: 50px;
+        height: 50px;
+      }
+      .buttons {
+        button {
+          border: none;
+          width: fit-content;
+          margin-right: 10px;
+          i {
+            color: rgb(87, 83, 83);
+          }
+        }
+      }
+    }
+    .animation-side {
+      position: relative;
+      width: 648px;
+      overflow: hidden;
+      .inner-side {
+        display: flex;
+        position: absolute;
+        .anim {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 648px;
+          background-color: rgb(18, 224, 36);
+          color: white;
+          height: 500px;
+          img {
+            position: absolute;
+            bottom: 0;
+          }
+          h2 {
+            margin-top: 90px;
           }
         }
       }

@@ -252,8 +252,93 @@ section {
           align-items: center;
 }
 
-.section2 .edu-type .edu .edu-type2 .onsite-text .more .more-icon {
+.section2 .edu-type .edu .edu-type2 .onsite-text .more a {
+  display: contents;
+}
+
+.section2 .edu-type .edu .edu-type2 .onsite-text .more a .more-icon {
   width: 20px;
   height: 20px;
+}
+
+.animate .full-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.animate .full-side .main-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 648px;
+  background-color: #faf5f5;
+  padding-left: 80px;
+}
+
+.animate .full-side .main-side img {
+  margin-top: 200px;
+  width: 50px;
+  height: 50px;
+}
+
+.animate .full-side .main-side .buttons button {
+  border: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 10px;
+}
+
+.animate .full-side .main-side .buttons button i {
+  color: #575353;
+}
+
+.animate .full-side .animation-side {
+  position: relative;
+  width: 648px;
+  overflow: hidden;
+}
+
+.animate .full-side .animation-side .inner-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.animate .full-side .animation-side .inner-side .anim {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 648px;
+  background-color: #12e024;
+  color: white;
+  height: 500px;
+}
+
+.animate .full-side .animation-side .inner-side .anim img {
+  position: absolute;
+  bottom: 0;
+}
+
+.animate .full-side .animation-side .inner-side .anim h2 {
+  margin-top: 90px;
 }
 /*# sourceMappingURL=style.css.map */
